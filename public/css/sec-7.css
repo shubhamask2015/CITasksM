@@ -1,0 +1,58 @@
+.sec-7{
+    padding: 0 4rem;
+}
+
+.sec-7 .wrapper{
+    width: 100%;
+}
+
+
+/* First row */
+.sec-7 .row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+.sec-7 .row1 .p1{
+    font-weight: bolder;
+    color: #999;
+}
+.sec-7 .row1 .p2{
+    font-weight: bolder;
+    opacity: 0.7;
+    font-size: 3rem;
+    padding: 0.9rem 0;
+}
+.sec-7 .row1 .p3{
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.6;
+    width: 58%;
+}
+
+/* secoend Row */
+
+.sec-7 .row2{
+    display: flex;
+    gap: 0 2rem;
+}
+.sec-7 .row2 .d1,
+.sec-7 .row2 .d2,
+.sec-7 .row2 .d3{
+    width: 33.33%;
+}
+.sec-7 .row2 .d1 .box1,
+.sec-7 .row2 .d2 .box1,
+.sec-7 .row2 .d3 .box1{
+    background-color: #ccc;;
+}
+.sec-7 .row2 .d1 .box2,
+.sec-7 .row2 .d2 .box2,
+.sec-7 .row2 .d3 .box2{
+    background-color: #5e5e5e;;
+}
+
+
+

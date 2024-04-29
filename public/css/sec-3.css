@@ -1,0 +1,88 @@
+.sec-3{
+    width: 100%;
+}
+.sec-3 .wrapper{
+    padding:2rem 4rem;
+    margin-top: 4rem;
+}
+
+.sec-3 .upper{
+    display: flex;
+    width: 100%;
+}
+.sec-3 .upper .left{
+    width: 50%;
+}
+.sec-3 .upper .left .p1{
+    color: #aaa;
+    font-size: 1rem;
+}
+.sec-3 .upper .left .p2{
+    font-size: 3rem;
+    margin-top: 0.8rem;
+    font-weight: bold;
+    opacity: 0.7;
+}
+.sec-3 .upper .right{
+    width: 50%;
+    display: flex;
+    align-self: end;
+    line-height: 1.1rem;
+    font-size: 1.1rem;
+    opacity: 0.6;
+}
+
+/* Lower Section */
+.sec-3 .lower{
+    display: flex;
+    width: 100%;
+    padding: 2rem 0;
+}
+.sec-3 .lower div{
+    width: 33.33%;
+    padding: 2rem;
+    border-radius: 0.3rem;
+}
+
+.sec-3 .lower div:hover{
+    cursor: pointer;
+}
+
+.sec-3 .lower div .icon{
+    font-size: 2.5rem;
+    padding: 1.4rem;
+    border-radius: 0.3rem;
+    background-color: #fff;
+    width: fit-content;
+}
+
+.sec-3 .lower .d1{
+    background-color: #333;
+    opacity: 0.8;
+    margin-right: 1.5rem;
+}
+.sec-3 .lower .d2{
+    background-color: #333;
+    opacity: 0.5;
+    margin: 0 0.75rem;
+}
+.sec-3 .lower .d3{
+    opacity: 0.5;
+}
+
+.sec-3 .lower .d1 .p1,
+.sec-3 .lower .d2 .p1{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin: 1rem 0;
+}
+.sec-3 .lower .d3 .p1{
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin: 1rem 0;
+}
+.sec-3 .lower .d1 .p2,
+.sec-3 .lower .d2 .p2{
+    color: #fff;
+}

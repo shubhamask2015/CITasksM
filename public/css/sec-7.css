@@ -4,6 +4,7 @@
 
 .sec-7 .wrapper{
     width: 100%;
+    padding-bottom: 5rem;
 }
 
 
@@ -42,6 +43,7 @@
 .sec-7 .row2 .d2,
 .sec-7 .row2 .d3{
     width: 33.33%;
+    height: 35rem;
     position: relative;
 }
 .sec-7 .row2 .d1 .box1,
@@ -56,14 +58,92 @@
 .sec-7 .row2 .d2 .box2,
 .sec-7 .row2 .d3 .box2{
     position: absolute;
-    left: 25%;
-    bottom: -10%;
+    left: 9%;
+    bottom: 0;
     background-color: #5e5e5e;;
-    width: fit-content;
-    padding: 0 3rem;
+    width: 82%;
     padding-top: 3rem;
     border-radius: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+.sec-7 .row2 .d1 .box2 .p1,
+.sec-7 .row2 .d2 .box2 .p1,
+.sec-7 .row2 .d3 .box2 .p1{
+    color: #ccc;
+    opacity: 0.6;
+    font-weight: bold;
+}
+.sec-7 .row2 .d1 .box2 .p2,
+.sec-7 .row2 .d2 .box2 .p2,
+.sec-7 .row2 .d3 .box2 .p2{
+    color: #FFF;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    margin: 0.7rem 0;
+}
+.sec-7 .row2 .d1 .box2 .icons,
+.sec-7 .row2 .d2 .box2 .icons,
+.sec-7 .row2 .d3 .box2 .icons{
+    display: flex;
+    gap: 0 2rem;
+    font-size: 1.25rem;
+    padding-top: 1.5rem;
+}
+.sec-7 .row2 .d1 .box2 .icons .icon1,
+.sec-7 .row2 .d1 .box2 .icons .icon2,
+.sec-7 .row2 .d1 .box2 .icons .icon3,
+.sec-7 .row2 .d2 .box2 .icons .icon1,
+.sec-7 .row2 .d2 .box2 .icons .icon2,
+.sec-7 .row2 .d2 .box2 .icons .icon3,
+.sec-7 .row2 .d3 .box2 .icons .icon1,
+.sec-7 .row2 .d3 .box2 .icons .icon2,
+.sec-7 .row2 .d3 .box2 .icons .icon3{
+    background-color: #bbb;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 50%;
+}
+.sec-7 .row2 .d1 .box2 .icons .icon1:hover,
+.sec-7 .row2 .d1 .box2 .icons .icon2:hover,
+.sec-7 .row2 .d1 .box2 .icons .icon3:hover,
+.sec-7 .row2 .d2 .box2 .icons .icon1:hover,
+.sec-7 .row2 .d2 .box2 .icons .icon2:hover,
+.sec-7 .row2 .d2 .box2 .icons .icon3:hover,
+.sec-7 .row2 .d3 .box2 .icons .icon1:hover,
+.sec-7 .row2 .d3 .box2 .icons .icon2:hover,
+.sec-7 .row2 .d3 .box2 .icons .icon3:hover{
+    cursor: pointer;
+    background-color: #888;
+}
+
+.sec-7 .row2 .d1 .box2 .icon,
+.sec-7 .row2 .d2 .box2 .icon,
+.sec-7 .row2 .d3 .box2 .icon{
+    margin-top: 2rem;
+    font-size: 2rem;
+    background-color: #aaa;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: end;
+    width: 4.5rem;
+    height: 4rem;
+}
+.sec-7 .row2 .d1 .box2 .icon:hover,
+.sec-7 .row2 .d2 .box2 .icon:hover,
+.sec-7 .row2 .d3 .box2 .icon:hover{
+    cursor: pointer;
+    background-color: #888;
+}
+
+
 
 
 

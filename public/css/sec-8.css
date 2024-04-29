@@ -1,3 +1,13 @@
+.sec-8{
+    background-color: #F3F3F3;
+    padding: 0 4rem;
+}
+
+.sec-8 .wrapper{
+    padding: 7rem 0;
+    width: 100%;
+}
+
 
 /* First row */
 .sec-8 .row1{
@@ -22,4 +32,61 @@
     font-weight: bold;
     opacity: 0.6;
     width: 58%;
+}
+
+/* secoend row */
+.sec-8 .row2{
+    margin-top: 2rem;
+    display: flex;
+    gap: 0 1.25rem;
+}
+.sec-8 .row2 .col1,
+.sec-8 .row2 .col2{
+    border: 0.2rem solid #ddd;
+    padding: 2rem 1.5rem;
+}
+.sec-8 .row2 .col1 .p1,
+.sec-8 .row2 .col2 .p1{
+    font-size: 2rem;
+    color: #ccc;
+}
+.sec-8 .row2 .col1 .p2,
+.sec-8 .row2 .col2 .p2{
+    color: #666;
+    padding: 1rem 0;
+}
+.sec-8 .row2 .col1 .profile ,
+.sec-8 .row2 .col2 .profile {
+    display: flex;
+    gap: 0 1rem;
+}
+.sec-8 .row2 .col1 .profile .circle,
+.sec-8 .row2 .col2 .profile .circle{
+    background-color: #ccc;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.sec-8 .row2 .col1 .profile .p11,
+.sec-8 .row2 .col2 .profile .p11{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: #666;
+}
+
+.sec-8 .row2 .col1 .profile .p22,
+.sec-8 .row2 .col2 .profile .p22{
+    font-weight: bold;
+    font-size: 1rem;
+    color: #ccc;
+}
+
+/* row 3 */
+
+.sec-8 .wrapper .row3{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.25rem;
+    color: #ccc;
+    margin-top: 2.5rem;
 }
